@@ -1,0 +1,44 @@
+{
+  "name": "pwm-frontend",
+  "version": "1.0.0",
+  "description": "Es un proyecto personal 😎 que busca ser la plataforma donde se puedan implementar las habilidades aprendidas durante mi formación como FullStack developer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oacamargoar/PWM-FrontEnd.git"
+  },
+  "keywords": [
+    "Gulp",
+    "Npm",
+    "React",
+    "js",
+    "Parqueadero",
+    "Dependencia",
+    "Apartamento",
+    "Vehículos"
+  ],
+  "author": "Omar Camargo Ardila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oacamargoar/PWM-FrontEnd/issues"
+  },
+  "homepage": "https://github.com/oacamargoar/PWM-FrontEnd#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "cssnano": "^5.1.12",
+    "gulp": "^4.0.2",
+    "gulp-avif": "^1.1.1",
+    "gulp-cache": "^1.1.3",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-webp": "^4.0.1",
+    "postcss": "^8.4.16",
+    "sass": "^1.54.3"
+  }
+}

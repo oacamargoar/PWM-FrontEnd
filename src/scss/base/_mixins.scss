@@ -1,0 +1,44 @@
+@use 'variables' as v;
+
+@mixin phone {
+    @media(min-width: v.$small) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media(min-width: v.$medium) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media(min-width: v.$large) {
+        @content;
+    }
+}
+
+@mixin desktopXl {
+    @media(min-width: v.$extraLarge) {
+        @content;
+    }
+}
+
+@mixin flex($justify: space-between, $align: center, $direccion: row) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direccion;
+}
+
+@mixin grid($col: 2, $gap: 5rem) {
+    display: grid;
+    grid-template-columns: repeat($col, 1fr);
+    gap: $gap;
+}
+
+@mixin setList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
