@@ -11,5 +11,28 @@
     <link rel="stylesheet" href="./build/css/app.css">
 </head>
 <body>
+    <header>
+        <div class="barra contenedor">
+            <span class="barra-logo">
+                <a href="/">pwm</a>
+            </span>
+            <div class="barra-buscador">
+                <form action="" class="formulario">
+                    <label for="matricula">Ingresar matricula: </label>
+                    <input type="text" placeholder="CKH-862">
+                    <button>Buscar</button>
+                </form>
+            </div>
+            <nav class="barra-navegacion">
+                <div class="barra-avatar">
+                    <picture>
+                        <source srcset="./build/img/Emma.avif" type="image/avif">
+                        <source srcset="./build/img/Emma.webp" type="image/webp">
+                        <img loading="lazy" width="200" height="300" src="./build/img/Emma.jpg" alt="Imagen del usuario">
+                    </picture>
+                </div>
+            </nav>
+        </div>
+    </header>
 </body>
 </html>

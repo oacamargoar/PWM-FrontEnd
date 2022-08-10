@@ -7,7 +7,7 @@ html {
     box-sizing: inherit;
 }
 body {
-    font-family: v.$logo;
+    font-family: v.$font;
     font-size: 1.6rem;
 }
 p {
@@ -21,6 +21,7 @@ p {
 }
 a {
     text-decoration: none;
+    color: v.$negro;
 }
 h1, h2, h3 {
     margin: 0 0 5rem 0;
@@ -35,7 +36,8 @@ h2 {
 h3 {
     font-size: 3rem;
 }
-img {
+img,
+picture {
     max-width: 100%;
     width: 100%;
     height: auto;
