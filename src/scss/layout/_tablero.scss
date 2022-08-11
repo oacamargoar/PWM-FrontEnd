@@ -1,0 +1,43 @@
+@use '../base/mixins' as m;
+@use '../base/variables' as v;
+
+.tablero {
+    border-radius: 1.5rem;
+    background-color: v.$gris;
+    min-height: 20rem;
+    max-height: 50rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    overflow-y: scroll;
+    @include m.grid(2, 1rem);
+    justify-items: center;
+    @include m.tablet {
+        @include m.grid(3, 1rem);
+    }
+    @include m.desktop {
+        @include m.grid(4, 1rem);
+    }
+    @include m.desktopXl {
+        @include m.grid(6, 1rem);
+    }
+}
+.vehiculo {
+    border: 1px solid v.$marron;
+    border-radius: 1.5rem;
+    width: 100%;
+    height: 7rem;
+    padding: 1.5rem;
+    p {
+        margin: 0;
+        text-align: center;
+    }
+    &-matricula {
+        font-weight: bold;
+    }
+    &-ubicacion {
+        @include m.flex;
+        p {
+            font-size: 1.4rem;
+        }
+    }
+}
