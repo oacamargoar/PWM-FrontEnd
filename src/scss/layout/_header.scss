@@ -35,13 +35,11 @@
 }
 
 .formulario {
-    -webkit-box-shadow: -4px 2px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -4px 2px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: -4px 2px 5px 0px rgba(0,0,0,0.75);
     text-align: center;
     margin-top: 2rem;
     background-color: #e1e1e1;
     padding: 1rem;
+    border-radius: 1.5rem;
     @include m.tablet {
         background-color: transparent;
         box-shadow: none;
